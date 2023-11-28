@@ -17,11 +17,11 @@ class Squer(Shape):
         self.l=l
         
     def Area(self):
-        #l=int(input("enter the lenth of the sequer: "))
+        
         area=self.l**2
         return area
         
-        #print("the are of the sequer is ",self.area)
+        
     def __str__(self):
         return("the color of the Squer: {} and the name: {} ".format(self.color,self.name))
     
@@ -30,11 +30,11 @@ class Circle(Shape):
         super().__init__(color,name)
         self.r=r
     def Area2(self):
-        #r=int(input("enter the radus of the sequer: "))
+        
         area2=(3.14*(self.r**2))
         
         return area2
-        #print("the are of the sequer is ",self.area)
+        
     def __str__(self):
         return("the color of the Circle: {} and the name: {}  ".format(self.color,self.name))
     
@@ -47,5 +47,5 @@ print(s1)
 print(c1)
 print("the area of the squer: ",s1.Area())
 print("the area of circle: ",c1.Area2())
-#c1.Area2()
+
     
