@@ -13,7 +13,7 @@ class Employee():
     
     def Calculate_emp_salary(self,hours):
         self.hours=hours
-        
+         
         
         if(self.hours> 50):
             overtime=self.hours-50
@@ -23,6 +23,8 @@ class Employee():
             return total
         else:
             return self.emp_salary
+        
+        
             
         
         
