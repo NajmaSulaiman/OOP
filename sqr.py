@@ -1,4 +1,4 @@
-from math import *
+
 def sqrt_find(x):
     l=1
     h=x
